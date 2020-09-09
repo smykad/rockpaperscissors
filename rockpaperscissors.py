@@ -18,7 +18,7 @@ user_response = ''  # string for user input
 
 # welcomes user to program
 name = input('Welcome to the Rock, Paper, Scissors application, what is your' +
-             'name?\n')  # asks for users name
+             ' name?\n')  # asks for users name
 print('Nice to meet you ' + name + ', let\'s play!')
 
 # engages user to play rock paper scissors
@@ -59,7 +59,7 @@ while True:
     # next line asks user if they want to play again
     user_response = input('Would you like to play again?\n').lower()
     if user_response == 'y' or user_response == 'yes':
-            continue
+        continue
     else:
         # Thanks user for playing, gives statistics, ends program
         print('Thank you for playing ' + str(name) +
